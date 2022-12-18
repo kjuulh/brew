@@ -5,31 +5,38 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.3.tar.gz"
-  sha256 "c42e0f6f665433ec7b9b1435e2e332532441226d1e1ff82e1e170b476e16abad"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.5.tar.gz"
+  sha256 "1315b6ee9bfce9e96a82c6943d8472b1a6c027bd1a58631323845c438a8569e9"
   license "NOASSERTION"
+
+  depends_on bottom
+  depends_on dust
+  depends_on fzf
+  depends_on gh
+  depends_on procs
+  depends_on src-cli
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-darwin-amd64.tar.gz"
-      sha256 "69b167c4b08396c7055f5b471cadc607f5d6145db92961fc1458855920bee742"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-darwin-amd64.tar.gz"
+      sha256 "106cba496fd36e4c12531c206443cb2f174e6b7409580e2335d0c19b7695e598"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-darwin-arm64.tar.gz"
-      sha256 "38372d7a512d100d73534b6f6b57afa779cac533a5fda24590ee66c8eed56fed"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-darwin-arm64.tar.gz"
+      sha256 "5d370814c2b6f422e6b998c006e006a98dd5248f5bc9c7386aa2c63a3756cf80"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-linux-amd64.tar.gz"
-      sha256 "7a066ad7aa04b9b6243ba557993c3a23f05c596d6f81b0d5e843bdf51c3a5e7c"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-linux-amd64.tar.gz"
+      sha256 "8671d59b84c8ceba1b543860a4531a875c8ea9ce4ec4b96577c7d843601f9838"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-linux-arm64.tar.gz"
-      sha256 "1596a0a9ed722e3f7ef894f1537b70f3ebf47722929ba216502c396e5766fce6"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-linux-arm64.tar.gz"
+      sha256 "069954b1d6dfe68ea47f11f58bd93ad3c6a8f7f639ef5a9a040cbe03d7cf13c6"
     end
   end
 
