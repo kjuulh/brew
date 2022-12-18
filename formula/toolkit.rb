@@ -5,38 +5,38 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.6.tar.gz"
-  sha256 "6be972127b6642cb324804c74f674d170084411d08a7dea6a97ed6874d39174b"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.7.tar.gz"
+  sha256 "c00d82f4ccfb0d828d3235841b5b69243d6c6693a37ea75a58441c1271cbd2ca"
   license "NOASSERTION"
 
-  depends_on bottom
-  depends_on dust
-  depends_on fzf
-  depends_on gh
-  depends_on procs
-  depends_on src-cli
+  depends_on "bottom"
+  depends_on "dust"
+  depends_on "fzf"
+  depends_on "gh"
+  depends_on "procs"
+  depends_on "src-cli"
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-darwin-amd64.tar.gz"
-      sha256 "d3b5b387a19af6defaeb6de2551ff2b76f20ff1ceb72c4450c69df8db2972ab6"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.7/toolkit-0.1.7-darwin-amd64.tar.gz"
+      sha256 "18f2856bedfd8a3abc612fd6ac6bc6ed8da3fc8a293e2643569ed1faa183597b"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-darwin-arm64.tar.gz"
-      sha256 "2d5a23c00724fd092694f77ac91ab50275f541120a682a0a68ab3afade7cee33"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.7/toolkit-0.1.7-darwin-arm64.tar.gz"
+      sha256 "730c02e765d3a24fa92cc13e21099248cadf3a911656e2e3f835c220d443c5d4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-linux-amd64.tar.gz"
-      sha256 "308ae87662a78ab35e70e22b9b3967c2b1054a0721d0dc7835556a3edb2bf9cc"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.7/toolkit-0.1.7-linux-amd64.tar.gz"
+      sha256 "38924191172b3be1560532bd34ad680d042b6116e38947282500241bea447ee4"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-linux-arm64.tar.gz"
-      sha256 "e8d71c6a5e8cd7092535b85f83853eb5622321d46a0331a99cd09a7baf373694"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.7/toolkit-0.1.7-linux-arm64.tar.gz"
+      sha256 "1553f0c15b1acc08d69b1fe0501ef776b7096442a0b3d50afda70a06aafbbd91"
     end
   end
 
