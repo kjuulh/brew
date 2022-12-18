@@ -5,8 +5,8 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.5.tar.gz"
-  sha256 "1315b6ee9bfce9e96a82c6943d8472b1a6c027bd1a58631323845c438a8569e9"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.6.tar.gz"
+  sha256 "6be972127b6642cb324804c74f674d170084411d08a7dea6a97ed6874d39174b"
   license "NOASSERTION"
 
   depends_on bottom
@@ -18,25 +18,25 @@ class Toolkit < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-darwin-amd64.tar.gz"
-      sha256 "106cba496fd36e4c12531c206443cb2f174e6b7409580e2335d0c19b7695e598"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-darwin-amd64.tar.gz"
+      sha256 "d3b5b387a19af6defaeb6de2551ff2b76f20ff1ceb72c4450c69df8db2972ab6"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-darwin-arm64.tar.gz"
-      sha256 "5d370814c2b6f422e6b998c006e006a98dd5248f5bc9c7386aa2c63a3756cf80"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-darwin-arm64.tar.gz"
+      sha256 "2d5a23c00724fd092694f77ac91ab50275f541120a682a0a68ab3afade7cee33"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-linux-amd64.tar.gz"
-      sha256 "8671d59b84c8ceba1b543860a4531a875c8ea9ce4ec4b96577c7d843601f9838"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-linux-amd64.tar.gz"
+      sha256 "308ae87662a78ab35e70e22b9b3967c2b1054a0721d0dc7835556a3edb2bf9cc"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.5/toolkit-0.1.5-linux-arm64.tar.gz"
-      sha256 "069954b1d6dfe68ea47f11f58bd93ad3c6a8f7f639ef5a9a040cbe03d7cf13c6"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.6/toolkit-0.1.6-linux-arm64.tar.gz"
+      sha256 "e8d71c6a5e8cd7092535b85f83853eb5622321d46a0331a99cd09a7baf373694"
     end
   end
 
