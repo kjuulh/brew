@@ -5,31 +5,31 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.1.tar.gz"
-  sha256 "898cf82ce1e4fbc71d74ff1c177345d9e9fb3dd2cd75691eafa5a42ebd006f30"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.3.tar.gz"
+  sha256 "c42e0f6f665433ec7b9b1435e2e332532441226d1e1ff82e1e170b476e16abad"
   license "NOASSERTION"
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.1/toolkit-0.1.1-darwin-amd64.tar.gz"
-      sha256 "fa7f2d9282dcce433e2894658c8b09777d2df4c4f9851a83e55f6fec0faae5b0"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-darwin-amd64.tar.gz"
+      sha256 "69b167c4b08396c7055f5b471cadc607f5d6145db92961fc1458855920bee742"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.1/toolkit-0.1.1-darwin-arm64.tar.gz"
-      sha256 "10b18604df5d8d66d9191351483524b11696799be7342d350aa46217f39a8042"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-darwin-arm64.tar.gz"
+      sha256 "38372d7a512d100d73534b6f6b57afa779cac533a5fda24590ee66c8eed56fed"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.1/toolkit-0.1.1-linux-amd64.tar.gz"
-      sha256 "31dc70374833e05fd378b7ea195dc8ad6e4ae698f09b2e07408ad612bd4c31e6"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-linux-amd64.tar.gz"
+      sha256 "7a066ad7aa04b9b6243ba557993c3a23f05c596d6f81b0d5e843bdf51c3a5e7c"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.1/toolkit-0.1.1-linux-arm64.tar.gz"
-      sha256 "25caf2fd963db0f8554d7d5ba28413f0c796773d8680c8ae2c5decea43f27f38"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.3/toolkit-0.1.3-linux-arm64.tar.gz"
+      sha256 "1596a0a9ed722e3f7ef894f1537b70f3ebf47722929ba216502c396e5766fce6"
     end
   end
 
