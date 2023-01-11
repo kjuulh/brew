@@ -5,8 +5,8 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.9.tar.gz"
-  sha256 "eedc8ae4a8988fc5290f2a65721abc14463cefe879a721341a2982cc73c23fe8"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.10.tar.gz"
+  sha256 "654edc4f3348205898064875bade124155adca1f01c07c62ad7a78efb2709b8e"
   license "NOASSERTION"
 
   depends_on "bandwhich"
@@ -20,25 +20,25 @@ class Toolkit < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.9/toolkit-0.1.9-darwin-amd64.tar.gz"
-      sha256 "fb1cdd014926f87c46ba8f7a4a431ca01f11527127f2b66c75ad02846c49bfd4"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.10/toolkit-0.1.10-darwin-amd64.tar.gz"
+      sha256 "03ff00c4cb339c9a9437f4636f6100bb5e362160e7ddc0cc608b1b76c2772f7c"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.9/toolkit-0.1.9-darwin-arm64.tar.gz"
-      sha256 "b969a20d28eb0ed69f654b45c0c758e13a3979b21956d172db6856fe0bd48375"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.10/toolkit-0.1.10-darwin-arm64.tar.gz"
+      sha256 "7410058cc32b65c32ba8bab75e974aaed42aaa6dc4570596570a33e23a4b5e86"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.9/toolkit-0.1.9-linux-amd64.tar.gz"
-      sha256 "fa775dee85c89471c40572b616bd86da912cdaef313ba6ca3f8b238417969b5c"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.10/toolkit-0.1.10-linux-amd64.tar.gz"
+      sha256 "449416b64f6b09dbc9bbf9012a1b77b6f8911d35ed291e510bc637dd4d48d6da"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.9/toolkit-0.1.9-linux-arm64.tar.gz"
-      sha256 "9939de1c7edd10d4e1d16d6ff6792d9a80ccd3af6c3bfdd110d610c7cf1a22ed"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.10/toolkit-0.1.10-linux-arm64.tar.gz"
+      sha256 "c1852c8908c7c0b4fbe6f6d0a41d907a92c9b20c77e76ce107a453bc0d88dab4"
     end
   end
 
