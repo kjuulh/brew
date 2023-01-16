@@ -5,8 +5,8 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.1.14.tar.gz"
-  sha256 "a104c88137493cb1b7572a0ca9a705473041edd2ea9b60ab1c061ed32c620a0e"
+  url "https://github.com/kjuulh/toolkit/archive/v0.1.16.tar.gz"
+  sha256 "5e2188b8ae0f121d268e43a529b03d5c44a75c23966872ecc95713af056801f1"
   license "NOASSERTION"
 
   depends_on "bandwhich"
@@ -20,25 +20,25 @@ class Toolkit < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.14/toolkit-0.1.14-darwin-amd64.tar.gz"
-      sha256 "2efd7c18af55b1a174e5537c2fca2ea24f16b96717cd54658882e4b2e7df29b0"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.16/toolkit-0.1.16-darwin-amd64.tar.gz"
+      sha256 "bb5959645e11a8f4a96f0c3062ff69f8b7b5304c71e03186322807d80e0f9e12"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.14/toolkit-0.1.14-darwin-arm64.tar.gz"
-      sha256 "b9cf24c5fe6c2bbac8d769f31f9ba5f25e67d2d5b820560ffcb13ce7d50f792a"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.16/toolkit-0.1.16-darwin-arm64.tar.gz"
+      sha256 "f9a67efe046048f3141597632c5ec116c2d91499124195387ebc982fdd443218"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.14/toolkit-0.1.14-linux-amd64.tar.gz"
-      sha256 "bf8bfa1ecea932a0ad98200a57b52252b04b161742991ca9094ca89b6c08ccd8"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.16/toolkit-0.1.16-linux-amd64.tar.gz"
+      sha256 "e2fdf9da730c9a8e9ce4fb9f0a6c6043362d74c10e1c6ee95dbab3d15f570edb"
     end
 
     on_arm do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.14/toolkit-0.1.14-linux-arm64.tar.gz"
-      sha256 "65970b8a19ed64bebedacfb152a367e1168ed763a729400ead91a9c777381787"
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.1.16/toolkit-0.1.16-linux-arm64.tar.gz"
+      sha256 "24dbfe98c9270102457a9015e07ef19e76c9ff1c87344dbb1b81dfad03d3e39f"
     end
   end
 
