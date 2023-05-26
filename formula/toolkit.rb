@@ -15,7 +15,6 @@ class Toolkit < Formula
   depends_on "fzf"
   depends_on "gh"
   depends_on "procs"
-  depends_on "sourcegraph/src-cli/src-cli"
   depends_on "tokei"
 
   on_macos do
