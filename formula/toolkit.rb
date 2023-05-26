@@ -19,26 +19,21 @@ class Toolkit < Formula
   depends_on "tokei"
 
   on_macos do
-    on_intel do
-      url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-darwin-amd64.tar.gz"
-      sha256 "12395a2ad8f8c118423542f0094e0749baaf66ab2158db689e737e370edb9b26"
-    end
-
     on_arm do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-darwin-arm64.tar.gz"
-      sha256 "a452e2244fc0a17c16ef23ff1deb6e721b2a9856539bb955bf25a6b141b7df73"
+      sha256 "2a910df20afab2304f4ec9901f73cdc1070137653fb9d3e1631f3038abc86432"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-linux-amd64.tar.gz"
-      sha256 "9a2a021b71901e0f6e617fbf42bd9c2b8421fb906604e1ab02d4fa47ebbae2ee"
+      sha256 "bcafe5a1ea0d2ea4c62aa7fbd822fe71ef829c6343cb31a08f8b4d70f890f225"
     end
 
     on_arm do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-linux-arm64.tar.gz"
-      sha256 "f1c6c69bb22b667c2dd9db629d05260ee8b6fde83dd37124dda30246e7a58455"
+      sha256 "4f11085960c4881f0116e53ee1ecfe00a0c1d31513fa66b3e1aac7afec88577e"
     end
   end
 
