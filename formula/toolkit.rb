@@ -5,7 +5,7 @@
 class Toolkit < Formula
   desc "My opinionated toolkit"
   homepage "https://github.com/kjuulh/toolkit"
-  url "https://github.com/kjuulh/toolkit/archive/v0.2.0.tar.gz"
+  url "https://github.com/kjuulh/toolkit/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "c5e134d53096e59fef7bb7e4f2d1f9966cd51cae8ad78aa55ce7ecdf790a0bb7"
   license "NOASSERTION"
 
@@ -15,24 +15,30 @@ class Toolkit < Formula
   depends_on "fzf"
   depends_on "gh"
   depends_on "procs"
+  depends_on "sourcegraph/src-cli/src-cli"
   depends_on "tokei"
 
   on_macos do
+    on_intel do
+      url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-darwin-amd64.tar.gz"
+      sha256 "9cb4705ab68b87dce01f112e33b3988510916984b01283c405e6b6731d94199e"
+    end
+
     on_arm do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-darwin-arm64.tar.gz"
-      sha256 "2a910df20afab2304f4ec9901f73cdc1070137653fb9d3e1631f3038abc86432"
+      sha256 "a9c5374455a3e2d9c8082688f242f701a6f43b7000462d10b266353769cf64ab"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-linux-amd64.tar.gz"
-      sha256 "bcafe5a1ea0d2ea4c62aa7fbd822fe71ef829c6343cb31a08f8b4d70f890f225"
+      sha256 "009dadb2d43d8846d4d5bd2359d244dde9759297a4f989c16dc8c722703ceefa"
     end
 
     on_arm do
       url "https://github.com/kjuulh/toolkit/releases/download/v0.2.0/toolkit-0.2.0-linux-arm64.tar.gz"
-      sha256 "4f11085960c4881f0116e53ee1ecfe00a0c1d31513fa66b3e1aac7afec88577e"
+      sha256 "607d84b3ce8746de51534fdcc13ab804ea988b59cd1a2068f168d29c85f0f227"
     end
   end
 
